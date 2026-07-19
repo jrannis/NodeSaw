@@ -22,7 +22,6 @@ button{
 title{
     text-align: center;
     color: tomato;
-    font: bold;
     flex-direction: row;
     justify-self: center;
 }
