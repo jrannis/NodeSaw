@@ -1,0 +1,20 @@
+:root{
+    --background: white;
+    --text: black;
+    --primary: #3b82f6;
+}
+
+body{
+    background-color: black;
+    color: var(--text);
+}
+
+button{
+    background-color: var(--primary);
+}
+
+.dark-mode{
+    --background: black;
+    --text: white;
+    --primary: #60a5fa;
+}
