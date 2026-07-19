@@ -19,7 +19,7 @@ button{
     --primary: #60a5fa;
 }
 
-title{
+.title{
     text-align: center;
     color: tomato;
     flex-direction: row;
