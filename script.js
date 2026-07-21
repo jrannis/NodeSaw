@@ -1,6 +1,7 @@
-const dark_button = document.getElementById("DarkMode_Button");
+const darkButton = document.getElementById("DarkMode_Button");
+const logos = document.querySelectorAll(".logo");
 
-
-dark_button.addEventListener("click",function(){
+darkButton.addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 });
+
