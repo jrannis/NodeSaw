@@ -40,6 +40,11 @@ main{
     height: 90%;
 }
 
+h1{
+    display: flex;
+    justify-self: center;
+}
+
 h2{
     margin: 0;
     padding: 12px;
@@ -133,6 +138,8 @@ button {
 .nav-button {
     position: relative;
     display: inline-block;
+    justify-content: space-evenly;
+
     width: 160px;
     height: 100px;
     overflow: hidden;
@@ -142,7 +149,6 @@ button {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 
-    justify-content: space-evenly;
 }
 
 .nav-button:hover {
